@@ -1,0 +1,36 @@
+Cadenas de Markov
+
+T = Matriz de transición (NxN)
+E = Vector de estados iniciales (1xN)
+N = Numero de estados
+
+E1 = ?
+A x B = (nxm)x(mxn)
+
+
+--- Opcion 1 ---
+E1 = E0 * T
+E2 = E1 * T
+E3 = E2 * T
+...
+Ex+1 = Ex * T
+
+
+--- Opcion 2 ---
+E0 * T^y
+E1 = E0 * T¹
+E2 = E0 * T²
+...
+Ex = E0 * T^x
+
+
+import numpy
+E0.dot(T)  # (Producto Punto)
+
+
+Hacer un programa que genere los valores (interfaz grafica), aplique los valores en python y mandarlo al arduino
+
+EJERCICIOS
+Algoritmo Genetico (aplicar las 3 Benchmarks que queramos)
+EJ 1 y 2 - Unidad 2
+

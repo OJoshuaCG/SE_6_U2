@@ -1,0 +1,8 @@
+# Ignore these directories
+.vscode/
+__pychache__/
+.idea/
+img/
+
+# Ignore these files
+*.exe    # all .exe files

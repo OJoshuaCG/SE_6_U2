@@ -1,0 +1,36 @@
+La idea del genetico es que evolucione. Es un algoritmo evolutivo
+
+El comienza sin conocimiento de algo, tiene un objetivo, mientras pase el tiempo (iteraciones = generaciones) va a ir mejorando, se basa en la seleccion natural.
+
+Tenemos vectores, les cuales cada valor es un gen de un cromosoma.
+
+
+1. Generar una población inicial
+    n vectores de m genes
+
+2. Seleccionar a los mejores
+    Torneo binario. Para seleccionar a quienes serán padres
+
+    2.1 Seleccionar aleatoriamente a dos individuos, enfrentarlos y quedarse con el mejor para ser el Padre 1
+
+    2.2 Seleccionar aleatoriamente a dos individuos, enfrentarlos y quedarse con el mejor para ser el Padre 2
+
+    ...
+
+    Se repite por la cantidad de hijos que quiera. Considerando que cada 2 padres, son 2 hijos
+
+
+
+
+
+4. Mutación de los hijos
+    Con un grado de probabilidad, cada gen puede mutar.
+
+    h1 [0 0 0 0 1 0]
+
+    for i in range(len(h1)):        
+        if(random.next() >= 0.8):
+            if(random.next() >= 0.5):
+                h1[i] = 1
+            else
+                h1[i] = 0

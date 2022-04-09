@@ -1,0 +1,5 @@
+Por cierto Alejandro dijo en la clase del jueves, que para hacer sus archivos de prueba y entrenamiento puede hacer un programa aparte donde le indiques cuántos datos serán los de entrenamiento del archivo original y los restantes de prueba. Y que para que los resultados sean lo más aleatorios posibles, pueden utilizar random.shuffle para desordenar la lista que generar al leer el archivo original del dataset.
+
+O sea, eso es una sugerencia que él nos dió
+
+Porque básicamente así hará los archivos que él nos pasará para probar nuestro programa

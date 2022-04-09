@@ -1,0 +1,5 @@
+1. Para la instancia que generamos para la cadena de markov, codificar sus salidas.
+
+2. Generar la matriz de entradas y de salidas
+
+3. Generar El grafico de la imagen
